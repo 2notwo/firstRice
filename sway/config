@@ -22,10 +22,26 @@ set $file_explorer nautilus
 bindsym $mod+e exec $file_explorer
 
 
+# Tile gap config
+gaps inner 8
+gaps outer 8
+
+
+#border size
+default_border pixel 1
+default_floating_border pixel 1
+
+#border colour          border      bg         text    indicator  child border
+client.focused          #990d35 #1c1a1a #990d35 #990d35 #990d35
+client.focused_inactive #f96900 #1c1a1a #990d35 #f96900 #f96900
+client.unfocused        #f96900 #1c1a1a #990d35 #f96900 #f96900
+client.urgent           #f8f7ff #1c1a1a #990d35 #f8f7ff #f8f7ff
+client.placeholder      #f96900 #1c1a1a #990d35 #f96900 #f96900
+
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg /home/notwo/Pictures/wallpapers/csm_wallpaper.png fill
 #
 # Example configuration:
 #
