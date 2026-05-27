@@ -57,9 +57,9 @@ output HDMI-A-1 resolution 1920x1080 position 1920,0
 #       middle_emulation enabled
 #   }
 #
-#   input type:keyboard {
-#       xkb_layout "eu"
-#   }
+input type:keyboard {
+    xkb_layout "gb"
+}
 #
 # You can also configure each device individually.
 # Read `man 5 sway-input` for more information about this section.
@@ -150,8 +150,6 @@ output HDMI-A-1 resolution 1920x1080 position 1920,0
     bindsym $mod+v splitv
 
     # Switch the current container between different layout styles
-    bindsym $mod+s layout stacking
-    bindsym $mod+w layout tabbed
 
     # Make the current focus fullscreen
     bindsym $mod+f fullscreen
