@@ -31,13 +31,12 @@ gaps outer 8
 default_border pixel 1
 default_floating_border pixel 1
 
-#border colour          border      bg         text    indicator  child border
-client.focused          #990d35 #1c1a1a #990d35 #990d35 #990d35
-client.focused_inactive #f96900 #1c1a1a #990d35 #f96900 #f96900
-client.unfocused        #f96900 #1c1a1a #990d35 #f96900 #f96900
-client.urgent           #f8f7ff #1c1a1a #990d35 #f8f7ff #f8f7ff
-client.placeholder      #f96900 #1c1a1a #990d35 #f96900 #f96900
-
+#                       border    bg        text      indicator child border
+client.focused          #f96900   #141414   #f0eeeb   #f96900   #f96900
+client.focused_inactive #2a2a2a   #141414   #666666   #2a2a2a   #2a2a2a
+client.unfocused        #272727   #141414   #444444   #272727   #272727
+client.urgent           #f0eeeb   #141414   #141414   #f0eeeb   #f0eeeb
+client.placeholder      #1e1e1e   #141414   #444444   #1e1e1e   #1e1e1e
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
