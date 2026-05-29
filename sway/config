@@ -36,7 +36,7 @@ default_floating_border pixel 1
 
 #                       border    bg        text      indicator child border
 client.focused          #f96900   #141414   #f0eeeb   #f96900   #f96900
-client.focused_inactive #2a2a2a   #141414   #666666   #2a2a2a   #2a2a2a
+client.focused_inactive #7e7e7e   #141414   #666666   #7e7e7e   #7e7e7e
 client.unfocused        #272727   #141414   #444444   #272727   #272727
 client.urgent           #f0eeeb   #141414   #141414   #f0eeeb   #f0eeeb
 client.placeholder      #1e1e1e   #141414   #444444   #1e1e1e   #1e1e1e
