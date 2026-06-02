@@ -1,0 +1,124 @@
+* {
+    font-family: Maple Mono;
+    font-size: 14px;
+    padding: 0px;
+    background: transparent;
+}
+
+window#waybar {
+    background-image: linear-gradient(to bottom, #121212 100%);
+    padding: 0px;
+    border-style: none;
+}
+
+#battery,
+#network,
+#clock,
+#custom-applauncher,
+#tray,
+#workspaces,
+#pulseaudio {
+    background-image: linear-gradient(to bottom, #000000 100%);
+
+    margin: 6px;
+    margin-right: 0px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    color: #f96900;
+
+    border-style: none;
+    transition-duration: 120ms;
+}
+
+#clock {
+    margin-right: 6px;
+}
+
+#pulseaudio:hover {
+    background-image: linear-gradient(to bottom, #f96900 100%);
+    color: #121212;
+    transition-duration: 100ms;
+}
+
+#custom-applauncher {
+    font-weight: bold;
+    transition-duration: 100ms;
+}
+
+#custom-applauncher:hover {
+    background-image: linear-gradient(to bottom, #f96900 100%);
+    color: #121212;
+    transition-duration: 100ms;
+}
+
+
+#tray menu {
+    background-color: #121212;
+    color: #f96900;
+    padding: 4px;
+}
+
+#tray menu menuitem {
+    background-image: linear-gradient(to bottom, #121212 100%);
+
+    margin: 3px;
+    color: #fff;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #121212;
+}
+
+#tray menu menuitem:hover {
+    background-image: linear-gradient(to bottom, #121212 100%);
+    color: #f96900;
+    font-weight: bold;
+}
+
+#workspaces button {
+    transition-duration: 100ms;
+    all: initial;
+    font-weight: bold;
+    color: #f96900;
+    padding: 2px 4px;
+    margin-right: 0.2cm;
+    margin-left: 0.2cm;
+}
+
+#workspaces button:hover {
+    background-image: linear-gradient(to bottom, #f96900 100%);
+    color: #121212;
+    transition-duration: 100ms;
+    border-radius:6px;
+
+}
+
+#workspaces button.focused {
+    background-image: linear-gradient(to bottom, #f96900 100%);
+    color: #121212;
+    transition-duration: 100ms;
+    border-radius: 6px;
+}
+
+#workspaces button.active {
+    color: #f96900;
+    font-weight: bold;
+    border-radius: 6px;
+
+}
+
+#workspaces button.urgent {
+    color: #ffffff;
+    border-radius: 6px;
+
+}
+
+#battery {
+  background-color: #000000;
+  color: #f96900;
+}
+#battery.warning,
+#battery.critical,
+#battery.urgent {
+  color: #000000;
+  background-color: #f81d20;
+}
