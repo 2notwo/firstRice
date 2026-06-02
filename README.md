@@ -1,3 +1,3 @@
 # firstRice
 Ricing linux config files
-Config files so far: sway, kitty
+Config files so far: sway, kitty, waybar, wofi
