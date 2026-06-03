@@ -119,6 +119,6 @@ window#waybar {
 #battery.warning,
 #battery.critical,
 #battery.urgent {
-  color: #000000;
+  color: #ff0000;
   background-color: #f81d20;
 }
